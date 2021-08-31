@@ -6,7 +6,7 @@
 RULES BROKEN BY
 Raj: 0
 Ashwin: 0
-Tushar: 1
+Tushar: 0
 Gopal: 0
-Ankit: 1
+Ankit: 0
 Ayush: 0
