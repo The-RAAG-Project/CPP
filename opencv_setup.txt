@@ -1,0 +1,16 @@
+1. Download and install Visual Studio from the repository, select C++ at time of installation
+2. Keep everything default and install
+3. Then download the opencv exe file from here https://github.com/opencv/opencv/releases/download/4.5.3/opencv-4.5.3-vc14_vc15.exe
+4. Install it and select "Extract to C:/opencv"
+5. After all files are extracted, open windows search pannel and type 'Edit enviroment', select the first opetion
+6. Under System variables, select Path and click New, paste 'C:\opencv\build\x64\vc15\bin' and click OK
+7. Start Visual Studio and select C++ Console app, click next and then next then Create button
+8. After the project is created, select Debud to X64
+9. Open Project tab and Open Properties
+10. Select VC++ directories and Include directories under it
+11. Click on yellow button and paste C:\opencv\build\include
+12. Do same for Library Directories and paste C:\opencv\build\x64\vc15\lib
+13. Then go to Linker/Input and edit Additional Dependencies, paste opencv_world453d.lib and allply all changes
+14. Download demo.png and demo.cpp, run the demo.cpp
+16. Contact Ankit if didn't work
+15. Enjoy
